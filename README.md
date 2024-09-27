@@ -324,6 +324,9 @@ az iot hub monitor-events -n {iothub_name} -q "select payload from devices where
 az iot hub monitor-events --hub-name <iot-hub-name>  -q "select payload from devices where deviceId = 'DNT22-TempAndHumiditySensor'"
 
 ---
+
+# Trial and Errors
+
 ### Example before actual DHT22
 ```py
 import os
@@ -368,7 +371,7 @@ if __name__ == "__main__":
 
 ```
 
-Another example (showing while loop every 5secs)
+### Another example (showing while loop every 5secs)
 ```py
 import os
 import json
